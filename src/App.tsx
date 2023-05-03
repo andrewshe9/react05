@@ -1,5 +1,11 @@
-const App = () => {
-  return <div>App</div>;
-};
+import Search from "./Components/Search";
+
+function App() {
+  return (
+    <>
+      <Search />
+    </>
+  );
+}
 
 export default App;
